@@ -1,0 +1,160 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: 5px solid #129490;
+    background-color: #70B77E ;
+    column-gap: 300px;
+    margin-bottom: 20px;
+    font-size: 125%;
+}
+
+.navigation-bar a{
+    text-decoration: none;
+
+}
+
+.navigation-bar a:focus{
+    text-decoration: none;
+    background-color: blue;
+}
+
+#minecraft-logo{
+    max-width: 512px;
+    max-height: 512px;
+    margin: auto;
+}
+
+#minecraft-text{
+    max-width: 510px;
+    max-height: 140px;
+    margin: auto;
+}
+
+#minecraft-header-1{
+    margin: 30px auto 30px;
+    font-size: 300%;
+}
+
+.minecraft-content{
+    margin: 10px 150px 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    box-shadow:
+    0 0 0 5px #70b77e,
+    0 0 0 10px #129490,
+    0 0 0 15px #065143;
+
+    width: fit-content;
+}
+.minecraft-content p{
+    font-size: 125%;
+}
+
+.minecraft-content > h2:first-child ~ h2{
+    margin-top: 40px;
+}
+
+#gameplay-examples{
+    margin: 10px auto 20px;
+}
+
+#gameplay-media{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#gameplay-media figure{
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+#gameplay-media figure img{
+    max-width: 400px;
+    max-height: 300px;
+    margin-bottom: 10px;
+}
+
+#gameplay-media figure figcaption{
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+}
+
+#minecraft-installation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 100px 20px;
+}
+
+.installation{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.installation > *{
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.installation li{
+    margin-top: 10px;
+}
+
+.installation a:hover{
+    text-decoration: none;
+}
+
+
+#minecraft-installation ol{
+    font-size: 150%;
+}
+
+#useful-links{
+    margin:10px auto 30px;
+}
+
+#useful-websites{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+#useful-websites li{
+    font-size: 125%;
+    margin-bottom: 10px;
+}
+
+fieldset{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: fit-content;
+}
+
+fieldset > *{
+    margin-top: 7px;
+    width: fit-content;
+}
+
+#feedback-header{
+    margin: 20px auto 20px;
+    font-size: 150%;
+}
+
+#comment-box{
+    min-width: 330px;
+}
